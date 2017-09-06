@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://192.168.5.61/clerk';
-$config['base_url'] = 'http://localhost/clerk';
-// $config['base_url'] = 'http://192.168.1.13/clerk';
+//$config['base_url'] = 'http://localhost/clerk';
+$config['base_url'] = 'https://dantestapp1.herokuapp.com/';
 //$config['base_url'] = 'http://192.168.43.99/clerk';
 
 /*
