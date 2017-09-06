@@ -5,12 +5,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+
+mysql://b180ecb9a6f662:9f35cfa2@us-cdbr-iron-east-05.cleardb.net/heroku_3541019aea969af?reconnect=true
+
 $db['default'] = array(
 	'dsn'	=> '',
 	// 'hostname' => '192.168.5.62',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'us-cdbr-iron-east-05.cleardb.net',
+	'username' => 'b180ecb9a6f662',
+	'password' => '9f35cfa2',
 	'database' => 'smartq',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
